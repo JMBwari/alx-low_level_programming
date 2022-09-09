@@ -7,7 +7,6 @@
 *
 * A simple program using puts.
 */
-
 int main(void)
 
 {
