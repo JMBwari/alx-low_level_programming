@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
  * Main - Prints out the last part of a quote in the stderr.
  * Return: 1 if success.
