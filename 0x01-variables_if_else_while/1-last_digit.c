@@ -5,10 +5,10 @@
 /**
 * main -The programs entry point
 *
-* Return: 0 if successful.       
+* Return: 0 if successful.
 */
 
-int main(void)                                                     
+int main(void)
 {
 	int n;
 	int last;
