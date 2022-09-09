@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 /*
-*  A simple program using puts.
+* main - The entry point for the program.
+*
+* Return: always 0
+*
+* A simple program using puts.
 */
 
 int main(void)
