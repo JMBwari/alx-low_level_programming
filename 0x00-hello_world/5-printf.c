@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 /**
+ * main - the program's entry point
+ *
+ * Return: always 0
+ *
  * A simple program using printf.
 */
 int main(void)
