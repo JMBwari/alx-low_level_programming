@@ -11,13 +11,9 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		putchar(( % 10) + '0');
-		if (i == 58)
-			continue;
-
+		putchar(i);
 		putchar(',');
 		putchar(' ');
-
 	}
 
 	putchar('\n')
