@@ -20,8 +20,6 @@ int main(void)
 					if ((i + j) == (k + l))
 					{
 						continue;
-					
-			
 					}
 
 					if ((i + j) > (k + l))
