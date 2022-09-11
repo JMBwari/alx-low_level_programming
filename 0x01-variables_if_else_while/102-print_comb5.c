@@ -22,11 +22,6 @@ int main(void)
 						continue;
 					}
 
-					if ((i + j) > (k + l))
-					{
-						continue;
-					}
-
 					if (!((i == 48) && (j == 48) && (k == 48) && (l == 49)))
 					{
 						putchar(',');
