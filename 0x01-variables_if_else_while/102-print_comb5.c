@@ -22,7 +22,7 @@ int main(void)
 						continue;
 					}
 
-					if ((i > j) || (j > k) || (k > l))
+					if ((i + j) > (k + l))
 					{
 						continue;
 					}
