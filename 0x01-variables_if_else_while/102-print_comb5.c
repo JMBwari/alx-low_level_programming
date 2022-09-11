@@ -17,12 +17,17 @@ int main(void)
 			{
 				for (l = 48; l < 58; l++)
 				{
-					if ((i + j) == (k + l))
+					int value_of_first_two_digits, value_of_second_two_digits;
+
+					value_of_first_two_digits = (i * 10) + j;
+					value_of_second_two_digits = (k * 10) + l;
+					
+					if (value_of_first_two_digits == value_of_second_two_digits)
 					{
 						continue;
 					}
 
-					if ((i + j) > (k + l))
+					if (value_of_first_two_digits > value_of_second_two_digits)
 					{
 						continue;
 					}
