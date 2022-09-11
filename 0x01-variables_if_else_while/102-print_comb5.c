@@ -24,8 +24,9 @@ int main(void)
 				/** loop for fourth digit */
 				for (l = 48; l < 58; l++)
 				{
-					/** declaring variables to store the actual value of the first & second digit,
-					* and the third and fourth digit respectively
+					/**
+					* declaring variables to store the actual value of the 1st & 2nd digit,
+					* and the 3rd and 4th digit respectively
 					*/
 					int value_of_first_two_digits, value_of_second_two_digits;
 
@@ -68,10 +69,10 @@ int main(void)
 int printOutput(int i, int j, int k, int l)
 {
 	/** print the first two digits, a space, then the second two digits */
-	putchar(i);                                                                                   
-	putchar(j);                                                                                   
-	putchar(' ');                                                                                 
-	putchar(k);                                                                                   
+	putchar(i);
+	putchar(j);
+	putchar(' ');
+	putchar(k);
 	putchar(l);
 
 	return (0);
