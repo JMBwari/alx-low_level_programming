@@ -27,7 +27,7 @@ int main(void)
 						continue;
 					}
 
-					if (!((i == 48) && (j == 49) && (k == 50) && (l == 51)))
+					if (!((i == 48) && (j == 48) && (k == 48) && (l == 49)))
 					{
 						putchar(',');
 						putchar(' ');
