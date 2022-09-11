@@ -66,6 +66,11 @@ int main(void)
 	return (0);
 }
 
+/**
+ * printOutput: Prints the 1st 2 digits, a space, then the 2nd 2 digits
+ *
+ * Return: 0 if successful.
+*/
 int printOutput(int i, int j, int k, int l)
 {
 	/** print the first two digits, a space, then the second two digits */
