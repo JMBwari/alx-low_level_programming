@@ -22,7 +22,9 @@ int main(void)
 				/** loop for fourth digit */
 				for (l = 48; l < 58; l++)
 				{
-					/** declaring variables to store the actual value of the first and second digit, and the third and fourth digit respectively */
+					/** declaring variables to store the actual value of the first and second digit,
+					* and the third and fourth digit respectively
+					*/
 					int value_of_first_two_digits, value_of_second_two_digits;
 
 					/** i is the tens value, j is the ones value; hence, i times 10 plus j */
@@ -42,14 +44,14 @@ int main(void)
 						continue;
 					}
 
-					/** if the combination is 0001, then don't precede with a comma and space */
+					/** if the combination is 0001, then don't precede with a comma & space */
 					if (!((i == 48) && (j == 48) && (k == 48) && (l == 49)))
 					{
 						putchar(',');
 						putchar(' ');
 					}
 
-					/** print the first two digits, then a space, then the second two digits */
+					/** print the first two digits, a space, then the second two digits */
 					putchar(i);
 					putchar(j);
 					putchar(' ');
