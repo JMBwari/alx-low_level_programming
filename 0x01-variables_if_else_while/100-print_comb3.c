@@ -23,18 +23,14 @@ int main(void)
 				continue;
 			}
 
-			if ((i == 0) && (j == 1))
-			{
-				putchar(i);
-				putchar(j);
-			}
-			else
+			if ((i != 0) && (j != 1))
 			{
 				putchar(',');
 				putchar(' ');
-				putchar(i);
-				putchar(j);
 			}
+
+			putchar(i);
+			putchar(j);
 		}
 
 	}
