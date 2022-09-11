@@ -73,6 +73,7 @@ int main(void)
  * @k: third digit
  * @l: fourth digit
  * Description: print the 1st two digits, a space, then the 2nd two digits.
+ * Return: 0 if successful.
  */
 int printOutput(int i, int j, int k, int l)
 {
