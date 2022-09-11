@@ -17,7 +17,7 @@ int main(void)
 			{
 				for (l = 48; l < 58; l++)
 				{
-					if ((i == j) || (i == k) || (i == l) || (j == k) || (j == l))
+					if ((i + j) == (k + l))
 					{
 						continue;
 					}
