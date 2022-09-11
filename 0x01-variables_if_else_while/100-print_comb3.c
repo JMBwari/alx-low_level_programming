@@ -30,7 +30,8 @@ int main(void)
 			}
 			else
 			{
-				putchar(', ');
+				putchar(',');
+				putchar(' ');
 				putchar(i);
 				putchar(j);
 			}
