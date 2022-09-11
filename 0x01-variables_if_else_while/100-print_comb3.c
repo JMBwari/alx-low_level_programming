@@ -32,8 +32,9 @@ int main(void)
 			putchar(i);
 			putchar(j);
 		}
-
 	}
+
+	putchar('\n');
 
 	return (0);
 }
