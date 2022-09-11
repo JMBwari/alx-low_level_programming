@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int printOutput(int i, int j, int k, int l);
+
 /**
  * main - entry point
  *
