@@ -20,6 +20,13 @@ int main(void)
 					if ((i + j) == (k + l))
 					{
 						continue;
+					
+			
+					}
+
+					if ((i + j) > (k + l))
+					{
+						continue;
 					}
 
 					if (!((i == 48) && (j == 48) && (k == 48) && (l == 49)))
