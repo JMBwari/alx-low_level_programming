@@ -9,14 +9,34 @@ int main(void)
 {
 	int i, j;
 
-	for (i = 0; i < 10; i++)
+	for (i = 48; i < 58; i++)
 	{
-		for (j = 0; j < 10; j++)
+		for (j = 48; j < 58; j++)
 		{
-			putchar(i);
-			putchar(j);
-			putchar(',');
-			putchar(' ');  
+			if (i == j)
+			{
+				continue;
+			}
+
+			if (i > j)
+			{
+				continue;
+			}
+
+			if ((i == 0) && (j == 1))
+			{
+				putchar(i);
+				putchar(j);
+			}
+			else
+			{
+				putchar(', ');
+				putchar(i);
+				putchar(j);
+			}
 		}
+
 	}
+
+	return (0);
 }
