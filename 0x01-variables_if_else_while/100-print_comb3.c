@@ -23,7 +23,7 @@ int main(void)
 				continue;
 			}
 
-			if ((i != 48) && (j != 49))
+			if !((i == 48) && (j == 49))
 			{
 				putchar(',');
 				putchar(' ');
