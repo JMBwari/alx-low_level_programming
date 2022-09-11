@@ -67,10 +67,13 @@ int main(void)
 }
 
 /**
- * printOutput: Prints the 1st 2 digits, a space, then the 2nd 2 digits
- *
- * Return: 0 if successful.
-*/
+ * printOutput - prints output.
+ * @i: first digit
+ * @j: second digit
+ * @k: third digit
+ * @l: fourth digit
+ * Description: print the 1st two digits, a space, then the 2nd two digits.
+ */
 int printOutput(int i, int j, int k, int l)
 {
 	/** print the first two digits, a space, then the second two digits */
