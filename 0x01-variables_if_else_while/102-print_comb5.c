@@ -52,7 +52,7 @@ int main(void)
 					}
 
 					/** print the first two digits, a space, then the second two digits */
-					printOutput(i, j, k, l)
+					printOutput(i, j, k, l);
 				}
 			}
 		}
