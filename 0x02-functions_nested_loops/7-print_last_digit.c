@@ -9,7 +9,7 @@ int print_last_digit(int n)
 	/** Find last digit of a number */
 	int lastDigit = n % 10;
 
-	_putchar(lastDigit);
+	_putchar('0' + lastDigit);
 
 	return (lastDigit);
 }
