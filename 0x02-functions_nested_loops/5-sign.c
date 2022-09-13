@@ -3,14 +3,14 @@
 /**
  * print_sign - sign of a number
  * @n: the number whose sign we're checking
- * Return: 1 if positive and > 0, 0 if zero, -1 if less than zero.  2 otherwise.
+ * Return: 1 if positive and > 0, 0 if zero, -1 if less than zero, 2 otherwise.
  */
 int print_sign(int n)
 {
 	if (n > 0)
 	{
 		_putchar('+');
-		return (1);		
+		return (1);
 	}
 
 	if (n == 0)
