@@ -10,7 +10,7 @@ int print_last_digit(int n)
 {
 	int lastDigit;
 
-	N = absu(n);
+	n = absu(n);
 
 	/** Find last digit of a number */
 	lastDigit = n % 10;
