@@ -1,17 +1,8 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * Return: 0 if successful
+ * print_alphabet - prints a to z in lowercase
 */
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	int i;
