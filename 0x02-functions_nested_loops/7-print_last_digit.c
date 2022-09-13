@@ -8,7 +8,10 @@ int print_last_digit(int n)
 {
 	int lastDigit;
 
-	n = _abs(n);
+	if (n < 0)
+	{
+		n = n * -1;
+	}
 
 	/** Find last digit of a number */
 	lastDigit = n % 10;
