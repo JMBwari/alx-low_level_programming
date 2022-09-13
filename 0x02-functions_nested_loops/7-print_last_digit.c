@@ -6,10 +6,12 @@
  */
 int print_last_digit(int n)
 {
+	int lastDigit;
+
 	n = _abs(n);
 
 	/** Find last digit of a number */
-	int lastDigit = n % 10;
+	lastDigit = n % 10;
 
 	_putchar('0' + lastDigit);
 
