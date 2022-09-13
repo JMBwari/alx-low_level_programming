@@ -6,6 +6,8 @@
  */
 int print_last_digit(int n)
 {
+	n = _abs(n);
+
 	/** Find last digit of a number */
 	int lastDigit = n % 10;
 
