@@ -2,6 +2,7 @@
 
 /**
  * print_last_digit - a function that prints the last digit of a number.
+ * @n: nambari ambayo tunatafuta digit yake ya mwisho
  * Return: value of the last digit
  */
 int print_last_digit(int n)
