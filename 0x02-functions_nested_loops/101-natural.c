@@ -21,7 +21,7 @@ int main(void)
 		}
 	}
 
-	printf(sum);
+	printf("%d", sum);
 
 	return (0);
 }
