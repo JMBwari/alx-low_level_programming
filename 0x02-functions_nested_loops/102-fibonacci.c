@@ -28,7 +28,7 @@ int main(void)
 
 		if (i < 50)
 		{
-			printf(", ")
+			printf(", ");
 		}
 	}
 
