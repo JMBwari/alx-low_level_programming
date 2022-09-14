@@ -6,35 +6,25 @@
 */
 int main(void)
 {
-	int i, previous, current;
+	int i, first, second, next;
 
-	for (i = 1; i < 51; i++)
+	first = 1;
+	second = 2;
+	next = first + second;
+
+	printf("%d", first);
+	printf(", ");
+
+	printf("%d", second);
+	printf(", ");
+
+	for (i = 3; i < 51; i++)
 	{
-		if (i == 1)
-		{
-			printf("%d", i);
-			printf(", ");
-
-			previous = 1;
-		}
-
-		if (i == 2)
-		{
-			printf("%d", i);
-			printf(", ");
-
-			current = 2;
-		}
-
-		previous = i - 1;
-		current = i;
-
-		printf("%d", previous + current);
+		printf("%d", next);
 		
-		if (i < 50)
-		{
-			printf(", ");
-		}
+		first = second;
+		second = next;
+		next = first + second;
 	}
 
 	printf("\n");
