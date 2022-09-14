@@ -31,6 +31,7 @@ void print_times_table(int n)
 				else
 				{
 					_putchar(((i * j) / 100) + '0');
+					_putchar((((i * j) - 100) / 10) + '0');
 					_putchar(((i * j) % 100) + '0');
 				}
 				/** not at last column, comma and space(s) */
