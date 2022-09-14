@@ -13,15 +13,15 @@ int main(void)
 	second = 2;
 	next = first + second;
 
-	printf("%l", first);
+	printf("%li", first);
 	printf(", ");
 
-	printf("%l", second);
+	printf("%li", second);
 	printf(", ");
 
 	for (i = 3; i < 51; i++)
 	{
-		printf("%l", next);
+		printf("%li", next);
 		
 		first = second;
 		second = next;
