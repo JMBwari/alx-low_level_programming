@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int i;
+	int i, previous, current;
 
 	for (i = 1; i < 51; i++)
 	{
@@ -14,15 +14,22 @@ int main(void)
 		{
 			printf("%d", i);
 			printf(", ");
+
+			previous = 1;
 		}
 
 		if (i == 2)
 		{
 			printf("%d", i);
 			printf(", ");
+
+			current = 2;
 		}
 
-		printf("%d", (i - 2) + (i - 1));
+		previous = i - 1;
+		current = i;
+
+		printf("%d", previous + current);
 		
 		if (i < 50)
 		{
