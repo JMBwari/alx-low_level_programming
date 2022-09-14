@@ -23,12 +23,13 @@ void times_table(void)
 			}
 
 			/** when we are not at the last column of the table,
-			 *  put a comma and one or two spaces */
+			 *  put a comma and one or two spaces
+			*/
 			if (j != 9)
 			{
 				_putchar(',');
 
-				if (i * j < 10)
+				if (i * j > 10)
 				{
 					_putchar(' ');
 					_putchar(' ');
@@ -39,10 +40,10 @@ void times_table(void)
 				}
 			}
 			/** when we are at the last column of the table,
-			 * put the dollar sign */
+			 * put a new line
+			*/
 			else
 			{
-				_putchar(36);
 				_putchar('\n');
 			}
 		}
