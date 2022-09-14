@@ -33,7 +33,7 @@ void times_table(void)
 				else
 					_putchar(' ');
 			}
-			/** new line after last column */ 
+			/** new line after last column */
 			else
 				_putchar('\n');
 		}
