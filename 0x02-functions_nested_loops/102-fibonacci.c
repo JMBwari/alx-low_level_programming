@@ -6,7 +6,8 @@
 */
 int main(void)
 {
-	int i, first, second, next;
+	int i;
+	long first, second, next;
 
 	first = 1;
 	second = 2;
@@ -20,7 +21,7 @@ int main(void)
 
 	for (i = 3; i < 51; i++)
 	{
-		printf("%d", next);
+		printf("%l", next);
 		
 		first = second;
 		second = next;
