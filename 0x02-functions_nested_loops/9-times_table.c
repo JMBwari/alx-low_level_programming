@@ -12,7 +12,7 @@ void times_table(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			_putchar(i * j + '0');
+			_putchar((i * j) + '0');
 
 			/** when we are not at the last column of the table,
 			 *  put a comma and one or two spaces */
