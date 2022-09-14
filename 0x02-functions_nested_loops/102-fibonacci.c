@@ -13,10 +13,10 @@ int main(void)
 	second = 2;
 	next = first + second;
 
-	printf("%d", first);
+	printf("%l", first);
 	printf(", ");
 
-	printf("%d", second);
+	printf("%l", second);
 	printf(", ");
 
 	for (i = 3; i < 51; i++)
