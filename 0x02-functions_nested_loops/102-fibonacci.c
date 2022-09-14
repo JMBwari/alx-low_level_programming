@@ -25,6 +25,11 @@ int main(void)
 		first = second;
 		second = next;
 		next = first + second;
+
+		if (i < 50)
+		{
+			printf(", ")
+		}
 	}
 
 	printf("\n");
