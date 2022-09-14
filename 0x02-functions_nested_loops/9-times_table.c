@@ -34,7 +34,7 @@ void times_table(void)
 			 * put the dollar sign */
 			else
 			{
-				_putchar('$');
+				_putchar(36);
 			}
 		}
 	}
