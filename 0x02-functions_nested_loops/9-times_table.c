@@ -21,31 +21,21 @@ void times_table(void)
 				_putchar(((i * j) / 10) + '0');
 				_putchar(((i * j) % 10) + '0');
 			}
-
-			/** when we are not at the last column of the table,
-			 *  put a comma and one or two spaces
-			*/
+			/** not at last column, comma and space(s) */
 			if (j != 9)
 			{
 				_putchar(',');
-
 				if (i * (j + 1) < 10)
 				{
 					_putchar(' ');
 					_putchar(' ');
 				}
 				else
-				{
 					_putchar(' ');
-				}
 			}
-			/** when we are at the last column of the table,
-			 * put a new line
-			*/
+			/** new line after last column */ 
 			else
-			{
 				_putchar('\n');
-			}
 		}
 	}
 }
