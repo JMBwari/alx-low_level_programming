@@ -72,7 +72,7 @@ void printNotLastColumn(int i, int j, int n)
 			_putchar(' ');
 		}
 	}
-        else
+	else
 	/** new line after last column */
 	{
 		_putchar('\n');
