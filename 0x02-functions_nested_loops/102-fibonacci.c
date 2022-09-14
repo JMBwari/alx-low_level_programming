@@ -22,7 +22,7 @@ int main(void)
 	for (i = 3; i < 51; i++)
 	{
 		printf("%li", next);
-		
+
 		first = second;
 		second = next;
 		next = first + second;
