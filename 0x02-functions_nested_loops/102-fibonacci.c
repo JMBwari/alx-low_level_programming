@@ -2,9 +2,9 @@
 
 /**
 * main - entry point
-* Return: void
+* Return: 0 if succesful
 */
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -31,4 +31,6 @@ void main(void)
 	}
 
 	printf("\n");
+
+	return (0);
 }
