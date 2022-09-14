@@ -1,5 +1,7 @@
 #include "main.h"
 
+void printNotLastColumn(int i, int j, int n);
+
 /**
  * print_times_table - prints  the n times table starting with 0
  * @n: the n times table to print
@@ -35,31 +37,44 @@ void print_times_table(int n)
 					_putchar(((i * j) % 10) + '0');
 				}
 				/** not at last column, comma and space(s) */
-				if (j != n)
-				{
-					_putchar(',');
-					if (i * (j + 1) < 10)
-					{
-						_putchar(' ');
-						_putchar(' ');
-						_putchar(' ');
-					}
-					else if (i * (j + 1) < 100)
-					{
-						_putchar(' ');
-						_putchar(' ');
-					}
-					else
-					{
-						_putchar(' ');
-					}
-				}
-				else
-				/** new line after last column */
-				{
-					_putchar('\n');
-				}
+				printNotLastColumn(i, j, n);
 			}
 		}
+	}
+}
+
+/**
+* printNotLastColumn - prints correct format for columns except last
+* @i: i
+* @j: j
+* @n: n
+* Return: void
+*/
+void printNotLastColumn(int i, int j, int n)
+{
+	if (j != n)
+	{
+		_putchar(',');
+
+		if (i * (j + 1) < 10)
+		{
+			_putchar(' ');
+			_putchar(' ');
+			_putchar(' ');
+		}
+		else if (i * (j + 1) < 100)
+		{
+			_putchar(' ');
+			_putchar(' ');
+		}
+		else
+		{
+			_putchar(' ');
+		}
+	}
+        else
+	/** new line after last column */
+	{
+		_putchar('\n');
 	}
 }
