@@ -10,8 +10,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
+	
+	return (0);
 
-	{
-		return (0);
-	}
 }
