@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include "main.h"
 
 int main(void)
 {
-	long long int n;
+	long long n;
 
 	n = 612852475143;
 
-	long long int divisor = 2; largestFactor;
+	long long divisor = 2; largestFactor;
 
 	while (n != 0)
 	{
