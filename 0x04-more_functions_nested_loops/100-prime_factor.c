@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdint.h>
 
 int main(void)
 {
-	unsigned long long n = 612852475143;
-	unsigned long long i;
+	int64_t n = 612852475143;
+	int64_t i;
 
 	for (i = 2ULL; i < n; i++)
 	{
@@ -13,7 +14,7 @@ int main(void)
 		}
 	}
 
-	printf("llu\n", n);
+	printf("d\n", n);
 
 	return (0);
 }
