@@ -28,7 +28,7 @@ int main(void)
 		}
 		if (i != 100)
 		{
-			printf(32);
+			printf(" ");
 		}
 	}
 
