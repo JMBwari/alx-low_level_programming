@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdint.h>
 
+/**
+ * main - returns the largest prime factor of n
+ * Return: 0 if successful
+*/
 int main(void)
 {
 	unsigned long n = 612852475143;
