@@ -2,33 +2,18 @@
 
 int main(void)
 {
-	long long n;
+	unsigned long long n = 612852475143;
+	unsigned long long i;
 
-	n = 612852475143;
-
-	long long divisor = 2; largestFactor;
-
-	while (n != 0)
+	for (i = 2ULL; i < n; i++)
 	{
-		if (n % divisor != 0)
+		while (n % i == 0)
 		{
-			divisor = divisor + 1;
-		}
-		else
-		{
-			largestFactor = n;
-
-			n = n / divisor;
-
-			if (n == 1)
-			{
-				printf("%lli", largestFactor);
-				printf("\n");
-				
-				break;
-			}
+			n /= i;
 		}
 	}
+
+	printf("llu\n", n);
 
 	return (0);
 }
