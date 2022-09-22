@@ -14,7 +14,7 @@ int main(void)
 		}
 	}
 
-	printf("li\n", n);
+	printf("%li\n", n);
 
 	return (0);
 }
