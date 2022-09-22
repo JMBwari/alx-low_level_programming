@@ -3,10 +3,10 @@
 
 int main(void)
 {
-	int64_t n = 612852475143;
-	int64_t i;
+	unsigned long n = 612852475143;
+	unsigned long i;
 
-	for (i = 2ULL; i < n; i++)
+	for (i = 2; i < n; i++)
 	{
 		while (n % i == 0)
 		{
@@ -14,7 +14,7 @@ int main(void)
 		}
 	}
 
-	printf("d\n", n);
+	printf("li\n", n);
 
 	return (0);
 }
