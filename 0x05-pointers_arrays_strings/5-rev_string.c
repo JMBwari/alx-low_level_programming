@@ -9,7 +9,7 @@
 void rev_string(char *s)
 {
 	size_t i; /*the loop variable*/
-	char temp = s;
+	char temp = *s;
 	int tempIndex = 0;
 
 	for (i = strlen(s); i > 0; i--)
