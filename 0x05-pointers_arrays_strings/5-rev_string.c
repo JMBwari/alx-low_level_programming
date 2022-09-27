@@ -6,7 +6,7 @@
  * @s: variable string
  * Return: void
  */
-void rev_string(char* s)
+void rev_string(char *s)
 {
 	int n = strlen(s);
 	int i;
@@ -15,7 +15,7 @@ void rev_string(char* s)
 	{
 		char temp = s[i];
 
-		s[i] = s[n - i -1];
+		s[i] = s[n - i - 1];
 		s[n - i - 1] = temp;
 	}
 }
