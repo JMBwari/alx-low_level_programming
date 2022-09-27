@@ -9,11 +9,14 @@
 void rev_string(char *s)
 {
 	size_t i; /*the loop variable*/
+	string temp = s;
+	int tempIndex = 0;
 
 	for (i = strlen(s); i > 0; i--)
 	{
-		_putchar(s[i -1]);
+		temp[tempIndex] = s[i];
+		tempIndex++;
 	}
 
-	_putchar(10);
+	s = temp;
 }
