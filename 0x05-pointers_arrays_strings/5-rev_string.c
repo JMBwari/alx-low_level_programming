@@ -6,17 +6,15 @@
  * @s: variable string
  * Return: void
  */
-void rev_string(char *s)
+void rev_string(char* s)
 {
-	size_t i; /*the loop variable*/
-	char temp[strlen(s)] = s;
-	int tempIndex = 0;
+	int n = strlen(s);
 
-	for (i = strlen(s); i > 0; i--)
+	for (int i = 0; i < n / 2; i++)
 	{
-		temp[tempIndex] = s[i];
-		tempIndex++;
-	}
+		char* temp = s[i];
 
-	s = temp;
+		s[i] = s[n - i -1];
+		s[n - i - 1] = temp;
+	}
 }
