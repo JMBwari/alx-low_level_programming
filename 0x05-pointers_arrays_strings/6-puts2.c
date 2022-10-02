@@ -12,7 +12,7 @@
  */
 void puts2(char *str)
 {
-	int i = 0; /* the loop variable */
+	size_t i = 0; /* the loop variable */
 	bool skip = 0; /* skip start as False so that we don't skip the first character. */
 
 	for (i = 0; i < strlen(str); i++)
