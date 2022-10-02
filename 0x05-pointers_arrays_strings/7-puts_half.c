@@ -2,8 +2,7 @@
 #include <string.h>
 
 /**
- *
- * puts_half- prints the second half of a given string
+ * puts_half - prints the second half of a given string
  *
  * @str: variable string
  *
