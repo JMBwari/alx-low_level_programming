@@ -25,5 +25,5 @@ void puts2(char *str)
 		skip = !skip; /* change skip from false to true, or true to false */
 	}
 
-	_putchar("\n");
+	_putchar(10);
 }
