@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdbool.h>
 
 /**
  * puts2 - prints every other character of a given string
