@@ -22,7 +22,7 @@ void puts_half(char *str)
 	}
 	else /* odd */
 	{
-		starting_point = ((size_of_string - 1) / 2);
+		starting_point = (((size_of_string - 1) / 2) + 1);
 	}
 
 	for (i = starting_point; i < size_of_string; i++)
